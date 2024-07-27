@@ -1,0 +1,210 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "students": [
+    {
+      "name": "Elvin Qurbanov",
+      "email": "elvin_qurbanov_00@list.ru",
+      "gpa": 85,
+      "id": 1,
+      "createDate": "2023-07-01T10:00:00Z"
+    },
+    {
+      "name": "Ayla",
+      "email": "ayla@list.ru",
+      "gpa": 84,
+      "id": 2,
+      "createDate": "2023-07-02T11:00:00Z"
+    },
+    {
+      "name": "Ali Veli",
+      "email": "ali.veli@example.com",
+      "gpa": 87,
+      "id": 3,
+      "createDate": "2023-07-03T12:00:00Z"
+    },
+    {
+      "name": "Nina Dobrev",
+      "email": "nina.d@example.com",
+      "gpa": 90,
+      "id": 4,
+      "createDate": "2023-07-04T13:00:00Z"
+    },
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "gpa": 78,
+      "id": 5,
+      "createDate": "2023-07-05T14:00:00Z"
+    },
+    {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "gpa": 92,
+      "id": 6,
+      "createDate": "2023-07-06T15:00:00Z"
+    },
+    {
+      "name": "Mark Johnson",
+      "email": "mark.johnson@example.com",
+      "gpa": 88,
+      "id": 7,
+      "createDate": "2023-07-07T16:00:00Z"
+    },
+    {
+      "name": "Sara Lee",
+      "email": "sara.lee@example.com",
+      "gpa": 91,
+      "id": 8,
+      "createDate": "2023-07-08T17:00:00Z"
+    },
+    {
+      "name": "Emma Brown",
+      "email": "emma.brown@example.com",
+      "gpa": 89,
+      "id": 9,
+      "createDate": "2023-07-09T18:00:00Z"
+    },
+    {
+      "name": "Oliver Wilson",
+      "email": "oliver.wilson@example.com",
+      "gpa": 86,
+      "id": 10,
+      "createDate": "2023-07-10T19:00:00Z"
+    },
+    {
+      "name": "Sophia Taylor",
+      "email": "sophia.taylor@example.com",
+      "gpa": 93,
+      "id": 11,
+      "createDate": "2023-07-11T20:00:00Z"
+    },
+    {
+      "name": "Liam Davis",
+      "email": "liam.davis@example.com",
+      "gpa": 85,
+      "id": 12,
+      "createDate": "2023-07-12T21:00:00Z"
+    },
+    {
+      "name": "Mia Martinez",
+      "email": "mia.martinez@example.com",
+      "gpa": 94,
+      "id": 13,
+      "createDate": "2023-07-13T22:00:00Z"
+    },
+    {
+      "name": "Noah Garcia",
+      "email": "noah.garcia@example.com",
+      "gpa": 82,
+      "id": 14,
+      "createDate": "2023-07-14T23:00:00Z"
+    },
+    {
+      "name": "Isabella Hernandez",
+      "email": "isabella.hernandez@example.com",
+      "gpa": 95,
+      "id": 15,
+      "createDate": "2023-07-15T10:30:00Z"
+    },
+    {
+      "name": "Lucas Martinez",
+      "email": "lucas.martinez@example.com",
+      "gpa": 83,
+      "id": 16,
+      "createDate": "2023-07-16T11:30:00Z"
+    },
+    {
+      "name": "Ava Robinson",
+      "email": "ava.robinson@example.com",
+      "gpa": 90,
+      "id": 17,
+      "createDate": "2023-07-17T12:30:00Z"
+    },
+    {
+      "name": "Ethan Clark",
+      "email": "ethan.clark@example.com",
+      "gpa": 84,
+      "id": 18,
+      "createDate": "2023-07-18T13:30:00Z"
+    },
+    {
+      "name": "Abigail Lewis",
+      "email": "abigail.lewis@example.com",
+      "gpa": 92,
+      "id": 19,
+      "createDate": "2023-07-19T14:30:00Z"
+    },
+    {
+      "name": "Michael Young",
+      "email": "michael.young@example.com",
+      "gpa": 80,
+      "id": 20,
+      "createDate": "2023-07-20T15:30:00Z"
+    },
+    {
+      "name": "Emily Hill",
+      "email": "emily.hill@example.com",
+      "gpa": 88,
+      "id": 21,
+      "createDate": "2023-07-21T16:30:00Z"
+    },
+    {
+      "name": "Jacob King",
+      "email": "jacob.king@example.com",
+      "gpa": 91,
+      "id": 22,
+      "createDate": "2023-07-22T17:30:00Z"
+    },
+    {
+      "name": "Madison Scott",
+      "email": "madison.scott@example.com",
+      "gpa": 89,
+      "id": 23,
+      "createDate": "2023-07-23T18:30:00Z"
+    },
+    {
+      "name": "William Green",
+      "email": "william.green@example.com",
+      "gpa": 87,
+      "id": 24,
+      "createDate": "2023-07-24T19:30:00Z"
+    },
+    {
+      "name": "Kelvin",
+      "email": "kelvin@example.com",
+      "gpa": 43,
+      "id": 25,
+      "createDate": "2023-07-25T20:30:00Z"
+    },
+    {
+      "name": "Elay",
+      "email": "elvin_qurbanov_00@list.ru",
+      "gpa": 34,
+      "createDate": "2024-07-27T22:24:42.167Z",
+      "id": 26
+    },
+    {
+      "name": "equrbanov",
+      "email": "elvin_qurbanov_00@list.ru",
+      "gpa": 98,
+      "createDate": "2024-07-27T22:24:55.555Z",
+      "id": 27
+    }
+  ]
+}
