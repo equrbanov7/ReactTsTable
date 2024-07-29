@@ -19,24 +19,24 @@ const StundentInfo = () => {
   const tableColumns = ["ID", "Student Name", "Email", "GPA", "Actions"];
   const emptyTableMessage = "No Students Available";
 
+  const fetchData = async () => {
+    const data: Student[] = await getStudentInfo();
+    data.sort(
+      (a, b) =>
+        new Date(b.createDate).getTime() - new Date(a.createDate).getTime()
+    );
+    setStudents(data);
+  };
   useEffect(() => {
-    const fetchData = async () => {
-      const data: Student[] = await getStudentInfo();
-      data.sort(
-        (a, b) =>
-          new Date(b.createDate).getTime() - new Date(a.createDate).getTime()
-      );
-      setStudents(data);
-    };
     fetchData();
-  }, [students]);
+  }, []);
 
   const handleDelete = async (id: number, name: string) => {
     const confirmMessage = confirm(`Are you sure you want to delete ${name}?`);
     if (confirmMessage) {
       try {
         await deleteStudentInfo(id);
-        setStudents(students.filter((student) => student.id !== id));
+        fetchData();
       } catch (error) {
         console.error("Error deleting student:", error);
       }
@@ -49,7 +49,7 @@ const StundentInfo = () => {
 
   return (
     <div className="StundentInfo">
-      <Form formTitle="Add Student Info" />
+      <Form formTitle="Add Student Info" fetchData={fetchData} />
       <hr className="StundentInfoBreakLine" />
       <Search setSearchValue={setSearchValue} />
       <hr className="StundentInfoBreakLine" />

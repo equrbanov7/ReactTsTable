@@ -109,13 +109,6 @@
       "createDate": "2023-07-13T22:00:00Z"
     },
     {
-      "name": "Noah Garcia",
-      "email": "noah.garcia@example.com",
-      "gpa": 82,
-      "id": 14,
-      "createDate": "2023-07-14T23:00:00Z"
-    },
-    {
       "name": "Isabella Hernandez",
       "email": "isabella.hernandez@example.com",
       "gpa": 95,
@@ -158,13 +151,6 @@
       "createDate": "2023-07-20T15:30:00Z"
     },
     {
-      "name": "Emily Hill",
-      "email": "emily.hill@example.com",
-      "gpa": 88,
-      "id": 21,
-      "createDate": "2023-07-21T16:30:00Z"
-    },
-    {
       "name": "Jacob King",
       "email": "jacob.king@example.com",
       "gpa": 91,
@@ -200,11 +186,32 @@
       "id": 26
     },
     {
+      "name": "Leyla",
+      "email": "Leyla@gmail.com",
+      "gpa": 80,
+      "createDate": "2024-07-29T13:08:47.801Z",
+      "id": 27
+    },
+    {
+      "name": "Elvin Qurbanov",
+      "email": "elvin_qurbanov_00@list.ru",
+      "gpa": 63,
+      "createDate": "2024-07-29T13:09:24.788Z",
+      "id": 28
+    },
+    {
       "name": "equrbanov",
       "email": "elvin_qurbanov_00@list.ru",
-      "gpa": 98,
-      "createDate": "2024-07-27T22:24:55.555Z",
-      "id": 27
+      "gpa": 34,
+      "createDate": "2024-07-29T13:21:56.494Z",
+      "id": 29
+    },
+    {
+      "name": "Elvin Qurbanov",
+      "email": "ads@list.ru",
+      "gpa": 75,
+      "createDate": "2024-07-29T13:25:09.222Z",
+      "id": 30
     }
   ]
 }

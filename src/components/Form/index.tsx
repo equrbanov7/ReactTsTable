@@ -5,6 +5,7 @@ import "./index.scss";
 
 interface FormProps {
   formTitle: string;
+  fetchData: () => void;
 }
 
 type Inputs = {
@@ -13,7 +14,7 @@ type Inputs = {
   gpa: number;
 };
 
-const Form = ({ formTitle }: FormProps) => {
+const Form = ({ formTitle, fetchData }: FormProps) => {
   const {
     register,
     handleSubmit,
@@ -28,6 +29,7 @@ const Form = ({ formTitle }: FormProps) => {
         createDate: new Date()
       };
       await postStudentInfo(studentData);
+      fetchData();
       reset();
     } catch (error) {
       console.error("Error:", error);
